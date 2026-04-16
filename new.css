@@ -1,0 +1,1582 @@
+html,body{
+    padding:0;
+    margin:0 auto;
+    font-family: arial;
+    font-weight:800;
+    
+}
+
+
+    
+#introduction{
+background-image: linear-gradient(to right,skyblue,blue,pink);
+color: white;
+margin-top: -24px;
+width:100%;
+}
+#introduction header{
+text-align: center;
+}
+#introduction header h1{
+font-family: montserrat;
+font-weight: bold;
+}
+
+
+/* //Introduction CSS// */
+
+
+/* About CSS */
+#about-header{
+background-color:deeppink;
+color: white;
+text-align: center;
+margin-top: -24px;
+}
+
+
+#navbar{
+    /*background: rgba(0, 0, 0, 0.6);*/
+    background-color: deepskyblue; 
+    width:auto;
+    height:auto;
+    justify-content:center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    justify-content:center;
+    align-items : center;
+    display : flex;
+    height:auto;
+    z-index : 99;
+    padding: 10px;
+    
+    
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 5px;
+    overflow: hidden;
+    width:auto;
+    height:auto;
+    
+
+}
+
+#navbar > ul > li {
+    float: left;
+    
+}
+
+
+#navbar li a {
+    display: inline-block;
+    color: navy;
+    text-align: center;
+    padding: auto;
+    text-decoration: none;
+    font-size:28px;
+    margin: 20px;
+    height:100%;
+    width:auto;
+
+}
+
+#navbar li a:hover{
+    background-color: white;
+    color: red;
+    transition: .2s ease-in-out;
+    transition-delay: .3s;
+    border-radius:5px;
+    height:40px;
+    width:auto;
+    font-size:27px;
+    
+    
+
+}
+
+li.dropdown {
+    display: inline-block;
+    
+}
+
+.dropdown:hover .isi-dropdown {
+    display: block;
+    border-radius: 20px;
+}
+
+.isi-dropdown a:hover {
+    color: #fff !important;
+}
+
+.isi-dropdown {
+    position: absolute;
+    display: none;
+    box-shadow: 0px 8px 16px 0px;
+    z-index: 1;
+    background-image:linear-gradient(to bottom left, crimson,tomato);
+}
+
+.isi-dropdown a {
+    color: white !important;
+}
+
+.isi-dropdown a:hover {
+    color: navy !important;
+    background: #fff !important;
+}
+
+
+.dropdown:hover .isi-dropdown {
+display: block;
+}
+
+#content{
+background-image:linear-gradient(#EAE7DD,#EAE7DD,#EAE7DD); 
+width:100%;
+margin-top:-24px;
+margin-bottom:0;
+}
+
+.container1 {
+        width: 90%;
+        padding: 15px;
+        background-color: linear-gradient(to bottom right,#68f3f8,white,#68f3f8);
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .slider .slick-slide {
+border: solid 3px navy;
+}
+.slider .slick-slide img {
+width: 100%;
+}
+.slick-prev, .slick-next {
+width: 50px;
+height: 50px;
+z-index: 1;
+}
+.slick-prev {
+left: 5px;
+}
+.slick-next {
+right: 5px;
+}
+.slick-prev:before, 
+.slick-next:before {
+font-size: 40px;
+text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.slick-dots {
+bottom: 15px;
+}
+.slick-dots li button:before {
+font-size: 12px;
+color: #fff;
+text-shadow: 0 0 10px rgba(0,0,0,0.5);
+opacity: 1;
+}
+.slick-dots li.slick-active button:before {
+color: #dedede;
+}
+
+
+
+
+#footer{
+background-image:linear-gradient(180deg, skyblue,navy,blue); 
+margin-top: 20px;
+
+
+}
+#footer img.logo{
+height: 50%;
+width:100%;
+margin-top:20px;
+position:relative;
+margin :20px;
+}
+#footer img.logo-km2{
+height: 200%;
+width:200%;
+margin-top:20px;
+position:relative;
+margin:auto;
+}
+#footer ul{
+list-style-type:none;
+
+}
+.footer2{
+
+padding: 5px;
+text-align: center;
+background: #feb200;
+border-radius:15px,10px,5px,5px;
+color:navy;
+font-family: verdana; 
+font-size: 20px; 
+font-weight: bold;
+}
+
+
+
+* {
+box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+font-family: Arial;
+padding: 20px;
+background: #f1f1f1;
+position:relative;
+}
+
+/* Header/Blog Title */
+.header-berita {
+padding: 30px;
+font-size: 40px;
+text-align: center;
+background: linear-gradient(#68f3f8,whitesmoke,whitesmoke,#68f3f8);
+
+
+}
+.header2 {
+padding: 15px;
+text-align: left;
+background: linear-gradient(navy,blue);
+margin-top: 15px;
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+float: left;
+width: 100%;
+height:auto;
+
+}
+
+/* Right column */
+.rightcolumn {
+float: left;
+width: 25%;
+padding-left: 20px;
+height:auto;
+
+}
+
+
+/* Add a card effect for articles */
+.card-left {
+background: linear-gradient(to right,whitesmoke,whitesmoke,whitesmoke,gray);
+padding: 20px;
+margin-top: 15px;
+height:auto;
+border-radius:15px; 
+
+}
+/* .card h2 {
+image : overflow;
+} */
+.card img {
+    position: relative;
+    z-index: 0;
+    left: 0px;
+    top: 0px;
+}
+.card-right {
+background: linear-gradient(gray,whitesmoke,whitesmoke,gray);
+padding: 20px;
+margin-top: 15px;
+height:auto;
+border-radius:25px;
+}
+.gambar-berita{
+float:right;
+}
+/* Clear floats after the columns */
+.row-berita:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Footer */
+.footer-berita {
+padding: 20px;
+text-align: center;
+background: linear-gradient(#245CA6,#245CA6);
+margin-top: 20px;
+border-radius:25px;
+color:white;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+.leftcolumn, .rightcolumn {   
+width: 100%;
+padding:0;
+}
+}
+
+
+
+
+
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+.column-team {
+float: left;
+width: auto;
+height: 500px;
+margin-bottom: 16px;
+margin : 10px;
+padding: 0 8px;
+background-image:linear-gradient(to bottom right,#68f3f8,white,#68f3f8);
+border-radius: 25px;
+}
+.column-kategori {
+float: left;
+width: auto;
+margin-bottom: 16px;
+margin : 10px;
+padding: 0 8px;
+background: linear-gradient(to bottom right,grey,white,gray);
+border-radius: 25px;
+}
+
+@media screen and (max-width: 650px) {
+.column-team {
+width: 100%;
+display: block;
+
+}
+}
+
+.card-team {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width: 650px) {
+.card-team {
+width: 100%;
+display: block;
+
+
+}
+}
+.container-team {
+padding: 0 16px;
+height:auto;
+width:auto;
+}
+.container-kategori {
+padding: 0 16px;
+height:auto;
+width:100%;
+}
+.container-kategori::after, .row::after {
+content: "";
+clear: both;
+display: table;
+}
+.container-team::after, .row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+.title-team {
+color: navy;
+}
+
+
+.row-team{
+justify-content : center;
+align-items : center;
+display : flex;
+
+}
+.fab {
+border-radius: 100px;  
+font-size: 25px;
+padding: 2px 10px;
+}
+.fas {
+margin-top:7px;
+display: inline-block;
+height: 1.5em;
+position: relative;
+width: 2em;
+border-radius: 100%;  
+font-size: 25px;
+padding: 15px;
+}
+
+.fa-instagram{
+background-image:linear-gradient(to bottom left, navy, red,orange);
+color: white;
+}
+.fa-instagram:hover { 
+background:linear-gradient(to bottom left, navy, red,orange);
+color: white;
+font-size: 35px;
+} 
+.fa-facebook-f{
+background: #3b5998;
+color:white;
+}
+.fa-facebook-f:hover { 
+background:white;
+color:  #3b5998;
+font-size: 35px;
+} 
+.fa-twitter{
+background: white;
+color:#00acee;
+}
+.fa-twitter:hover { 
+background-color: #00acee;
+color: white;
+font-size: 35px;
+} 
+.fa-youtube{
+background-color:white;
+color: red;
+}
+.fa-youtube:hover { 
+background-color:red;
+color: white;
+font-size: 35px;
+} 
+.fa-box ,.fa-utensils ,.fa-t-shirt ,.fa-laptop, .fa-award {
+background-image:linear-gradient(to bottom left, navy, black);
+color: white;
+
+}
+
+
+
+body-footer {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+input[type=text],[type=email], select, textarea {
+width: 100%;
+padding: 12px;
+border: 5px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+
+}
+
+input[type=submit] {
+background-color: green;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: gray;
+color:black;
+}
+
+
+
+
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+.column-footer {
+width: 95%;
+margin-bottom: 16px;
+margin : 15px;
+padding: 0 8px;
+background: linear-gradient(black,navy,black);
+border-radius: 25px;
+}
+
+@media screen and (max-width: 650px) {
+.column-footer {
+width: 50%;
+display: block;
+}
+}
+
+.card-footer {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container-footer {
+padding: 0 16px;
+}
+
+.container-footer::after, .row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+.row-footer{
+justify-content : center;
+align-items : center;
+display : flex;
+
+}
+
+
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+color: red;
+opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+color: red;
+
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+color: red;
+}
+
+
+
+* {
+box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+.content-web {
+font-family: Arial;
+padding: 20px;
+background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header-content {
+padding: 30px;
+font-size: 40px;
+text-align: center;
+background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+float: left;
+width: 100%;
+}
+
+/* Right column */
+.rightcolumn {
+float: left;
+width: 25%;
+padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+background:linear-gradient(orange,red);
+width: 100%;
+border: solid 3.5px navy;
+}
+
+/* Add a card effect for articles */
+.card-content {
+background-color: white;
+padding: 20px;
+margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row-content2:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Footer */
+.footer-content {
+padding: 20px;
+text-align: center;
+background: #ddd;
+margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+.leftcolumn, .rightcolumn {   
+width: 100%;
+padding: 0;
+}
+}
+
+#potensi{
+ background:linear-gradient(black,black,white);
+ 
+}
+.column-potensi {
+
+width: 100%;
+margin-bottom: 25px;
+padding: 0 8px;
+background: linear-gradient(to bottom right,white,white);
+border-radius: 25px;
+justify-content: center;
+align-items: center;
+display: flex;
+
+}
+
+
+@media screen and (max-width: 650px) {
+.column-potensi {
+width: 100%;
+display: block;
+
+}
+}
+
+.card-potensi {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+width:100%;
+}
+.card-potensi button {
+border: none;
+outline: 0;
+padding: 12px;
+color: white;
+background-color: #000;
+text-align: center;
+cursor: pointer;
+width: 100%;
+font-size: 18px;
+}
+
+.card-potensi button:hover {
+opacity: 0.7;
+}
+.container-potensi {
+padding: 0 16px;
+
+}
+
+.container-potensi::after, .row::after {
+content: "";
+clear: both;
+display: table;
+
+}
+
+.title-potensi {
+color: navy;
+}
+
+
+.row-potensi{
+justify-content : center;
+align-items : center;
+display : flex;
+width:100%;
+
+
+}
+
+.card1 {
+box-shadow: 0 10px 18px 0 rgba(0.5, 0.5, 0.5, 0.9);
+float:left;
+border-radius: 15px;
+margin: 6px;
+margin-top:25px; 
+margin-bottom:25px;
+text-align: center;
+font-family: arial;
+width:32%;
+height:auto;
+background: linear-gradient(to bottom right,#68f3f8,white,#68f3f8);
+
+
+}
+
+.price {
+color: red;
+font-size: 20pt;
+}
+
+.card button {
+border: none;
+outline: 0;
+padding: 12px;
+color: white;
+background-color: #000;
+text-align: center;
+cursor: pointer;
+width: 100%;
+font-size: 18px;
+}
+
+.card button:hover {
+opacity: 0.7;
+}
+
+/* Ukuran layar kecil */
+  .baris{
+    box-sizing: border-box;
+  }
+  .kolom{
+    width: 100%;
+    height: auto;
+    margin: 3px;
+    box-sizing: border-box;
+    float: left;
+
+  }
+  h3{font-size: 10pt;}
+  p{font-size: 9pt}
+/* Ukuran layar mobile phone minimal resolusi 375px */
+  @media (min-width: 375px) {
+      .title-team{font-size: 15pt;}
+       h2{font-size: 25pt;}
+      .price{font-size: 20pt;}
+    .kolom{width: calc(100vw / 5);}
+    h3{font-size: 16pt;}
+  p{font-size: 12pt}
+  }
+  /* Ukuran layar mobile phone minimal resolusi 576px */
+  @media (min-width: 576px) {
+    .kolom{width: calc(100vw / 5);}
+    h3{font-size: 16pt;}
+  p{font-size: 12pt}
+  }
+
+    /* Ukuran layar tablet minimal resolusi 768px */
+  @media (min-width: 768px) { 
+    .kolom{width: calc(100vw / 5);}
+     h3{font-size: 16pt;}
+  p{font-size: 12pt}
+  }
+
+    /* Ukuran layar dekstop minimal resolusi 992px */
+  @media (min-width: 992px) { 
+    .kolom{width: calc(100vw / 5);}
+     h3{font-size: 16pt;}
+  p{font-size: 12pt}
+  }
+
+    /* Ukuran layar besar minimal resolusi 1200px */
+  @media (min-width: 1200px) { 
+    .kolom{width: calc(100vw / 5);}
+     h3{font-size: 18pt;}
+  p{font-size: 12pt}
+
+  }
+
+    /* Ukuran layar sangat besar minimal resolusi 1400px */
+  @media (min-width: 1400px) {
+   
+  }
+
+html,body{
+    padding:0;
+    margin:0 auto;
+    font-family: arial;
+    font-weight:800;
+    
+}
+
+
+    
+#introduction{
+background-image: linear-gradient(to right,skyblue,blue,pink);
+color: white;
+margin-top: -24px;
+width:100%;
+}
+#introduction header{
+text-align: center;
+}
+#introduction header h1{
+font-family: montserrat;
+font-weight: bold;
+}
+
+
+/* //Introduction CSS// */
+
+
+/* About CSS */
+#about-header{
+background-color:deeppink;
+color: white;
+text-align: center;
+margin-top: -24px;
+}
+
+
+#navbar{
+    /*background: rgba(0, 0, 0, 0.6);*/
+    background-color: deepskyblue; 
+    width:auto;
+    height:auto;
+    justify-content:center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    justify-content:center;
+    align-items : center;
+    display : flex;
+    height:auto;
+    z-index : 99;
+    padding: 10px;
+    
+    
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 5px;
+    overflow: hidden;
+    width:auto;
+    height:auto;
+    
+
+}
+
+#navbar > ul > li {
+    float: left;
+    
+}
+
+
+#navbar li a {
+    display: inline-block;
+    color: navy;
+    text-align: center;
+    padding: auto;
+    text-decoration: none;
+    font-size:28px;
+    margin: 20px;
+    height:100%;
+    width:auto;
+
+}
+
+#navbar li a:hover{
+    background-color: white;
+    color: red;
+    transition: .2s ease-in-out;
+    transition-delay: .3s;
+    border-radius:5px;
+    height:40px;
+    width:auto;
+    font-size:27px;
+    
+    
+
+}
+
+li.dropdown {
+    display: inline-block;
+    
+}
+
+.dropdown:hover .isi-dropdown {
+    display: block;
+    border-radius: 20px;
+}
+
+.isi-dropdown a:hover {
+    color: #fff !important;
+}
+
+.isi-dropdown {
+    position: absolute;
+    display: none;
+    box-shadow: 0px 8px 16px 0px;
+    z-index: 1;
+    background-image:linear-gradient(to bottom left, crimson,tomato);
+}
+
+.isi-dropdown a {
+    color: white !important;
+}
+
+.isi-dropdown a:hover {
+    color: navy !important;
+    background: #fff !important;
+}
+
+
+.dropdown:hover .isi-dropdown {
+display: block;
+}
+
+#content{
+background-image:linear-gradient(#EAE7DD,#EAE7DD,#EAE7DD); 
+width:100%;
+margin-top:-24px;
+margin-bottom:0;
+}
+
+.container1 {
+        width: 90%;
+        padding: 15px;
+        background-color: linear-gradient(to bottom right,#68f3f8,white,#68f3f8);
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .slider .slick-slide {
+border: solid 3px navy;
+}
+.slider .slick-slide img {
+width: 100%;
+}
+.slick-prev, .slick-next {
+width: 50px;
+height: 50px;
+z-index: 1;
+}
+.slick-prev {
+left: 5px;
+}
+.slick-next {
+right: 5px;
+}
+.slick-prev:before, 
+.slick-next:before {
+font-size: 40px;
+text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.slick-dots {
+bottom: 15px;
+}
+.slick-dots li button:before {
+font-size: 12px;
+color: #fff;
+text-shadow: 0 0 10px rgba(0,0,0,0.5);
+opacity: 1;
+}
+.slick-dots li.slick-active button:before {
+color: #dedede;
+}
+
+
+
+
+#footer{
+background-image:linear-gradient(180deg, skyblue,navy,blue); 
+margin-top: 20px;
+
+
+}
+#footer img.logo{
+height: 50%;
+width:100%;
+margin-top:20px;
+position:relative;
+margin :20px;
+}
+#footer img.logo-km2{
+height: 200%;
+width:200%;
+margin-top:20px;
+position:relative;
+margin:auto;
+}
+#footer ul{
+list-style-type:none;
+
+}
+.footer2{
+
+padding: 5px;
+text-align: center;
+background: #feb200;
+border-radius:15px,10px,5px,5px;
+color:navy;
+font-family: verdana; 
+font-size: 20px; 
+font-weight: bold;
+}
+
+
+
+* {
+box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+font-family: Arial;
+padding: 20px;
+background: #f1f1f1;
+position:relative;
+}
+
+/* Header/Blog Title */
+.header-berita {
+padding: 30px;
+font-size: 40px;
+text-align: center;
+background: linear-gradient(#68f3f8,whitesmoke,whitesmoke,#68f3f8);
+
+
+}
+.header2 {
+padding: 15px;
+text-align: left;
+background: linear-gradient(navy,blue);
+margin-top: 15px;
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+float: left;
+width: 100%;
+height:auto;
+
+}
+
+/* Right column */
+.rightcolumn {
+float: left;
+width: 25%;
+padding-left: 20px;
+height:auto;
+
+}
+
+
+/* Add a card effect for articles */
+.card-left {
+background: linear-gradient(to right,whitesmoke,whitesmoke,whitesmoke,gray);
+padding: 20px;
+margin-top: 15px;
+height:auto;
+border-radius:15px; 
+
+}
+/* .card h2 {
+image : overflow;
+} */
+.card img {
+    position: relative;
+    z-index: 0;
+    left: 0px;
+    top: 0px;
+}
+.card-right {
+background: linear-gradient(gray,whitesmoke,whitesmoke,gray);
+padding: 20px;
+margin-top: 15px;
+height:auto;
+border-radius:25px;
+}
+.gambar-berita{
+float:right;
+}
+/* Clear floats after the columns */
+.row-berita:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Footer */
+.footer-berita {
+padding: 20px;
+text-align: center;
+background: linear-gradient(#245CA6,#245CA6);
+margin-top: 20px;
+border-radius:25px;
+color:white;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+.leftcolumn, .rightcolumn {   
+width: 100%;
+padding:0;
+}
+}
+
+
+
+
+
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+.column-team {
+float: left;
+width: auto;
+height: 500px;
+margin-bottom: 16px;
+margin : 10px;
+padding: 0 8px;
+background-image:linear-gradient(to bottom right,#68f3f8,white,#68f3f8);
+border-radius: 25px;
+}
+.column-kategori {
+float: left;
+width: auto;
+margin-bottom: 16px;
+margin : 10px;
+padding: 0 8px;
+background: linear-gradient(to bottom right,grey,white,gray);
+border-radius: 25px;
+}
+
+@media screen and (max-width: 650px) {
+.column-team {
+width: 100%;
+display: block;
+
+}
+}
+
+.card-team {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width: 650px) {
+.card-team {
+width: 100%;
+display: block;
+
+
+}
+}
+.container-team {
+padding: 0 16px;
+height:auto;
+width:auto;
+}
+.container-kategori {
+padding: 0 16px;
+height:auto;
+width:100%;
+}
+.container-kategori::after, .row::after {
+content: "";
+clear: both;
+display: table;
+}
+.container-team::after, .row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+.title-team {
+color: navy;
+}
+
+
+.row-team{
+justify-content : center;
+align-items : center;
+display : flex;
+
+}
+.fab {
+border-radius: 100px;  
+font-size: 25px;
+padding: 2px 10px;
+}
+.fas {
+margin-top:7px;
+display: inline-block;
+height: 1.5em;
+position: relative;
+width: 2em;
+border-radius: 100%;  
+font-size: 25px;
+padding: 15px;
+}
+
+.fa-instagram{
+background-image:linear-gradient(to bottom left, navy, red,orange);
+color: white;
+}
+.fa-instagram:hover { 
+background:linear-gradient(to bottom left, navy, red,orange);
+color: white;
+font-size: 35px;
+} 
+.fa-facebook-f{
+background: #3b5998;
+color:white;
+}
+.fa-facebook-f:hover { 
+background:white;
+color:  #3b5998;
+font-size: 35px;
+} 
+.fa-twitter{
+background: white;
+color:#00acee;
+}
+.fa-twitter:hover { 
+background-color: #00acee;
+color: white;
+font-size: 35px;
+} 
+.fa-youtube{
+background-color:white;
+color: red;
+}
+.fa-youtube:hover { 
+background-color:red;
+color: white;
+font-size: 35px;
+} 
+.fa-box ,.fa-utensils ,.fa-t-shirt ,.fa-laptop, .fa-award {
+background-image:linear-gradient(to bottom left, navy, black);
+color: white;
+
+}
+
+
+
+body-footer {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+input[type=text],[type=email], select, textarea {
+width: 100%;
+padding: 12px;
+border: 5px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+
+}
+
+input[type=submit] {
+background-color: green;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: gray;
+color:black;
+}
+
+
+
+
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+.column-footer {
+width: 95%;
+margin-bottom: 16px;
+margin : 15px;
+padding: 0 8px;
+background: linear-gradient(black,navy,black);
+border-radius: 25px;
+}
+
+@media screen and (max-width: 650px) {
+.column-footer {
+width: 50%;
+display: block;
+}
+}
+
+.card-footer {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container-footer {
+padding: 0 16px;
+}
+
+.container-footer::after, .row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+.row-footer{
+justify-content : center;
+align-items : center;
+display : flex;
+
+}
+
+
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+color: red;
+opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+color: red;
+
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+color: red;
+}
+
+
+
+* {
+box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+.content-web {
+font-family: Arial;
+padding: 20px;
+background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header-content {
+padding: 30px;
+font-size: 40px;
+text-align: center;
+background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+float: left;
+width: 100%;
+}
+
+/* Right column */
+.rightcolumn {
+float: left;
+width: 25%;
+padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+background:linear-gradient(orange,red);
+width: 100%;
+border: solid 3.5px navy;
+}
+
+/* Add a card effect for articles */
+.card-content {
+background-color: white;
+padding: 20px;
+margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row-content2:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Footer */
+.footer-content {
+padding: 20px;
+text-align: center;
+background: #ddd;
+margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+.leftcolumn, .rightcolumn {   
+width: 100%;
+padding: 0;
+}
+}
+
+#potensi{
+ background:linear-gradient(black,black,white);
+ 
+}
+.column-potensi {
+
+width: 100%;
+margin-bottom: 25px;
+padding: 0 8px;
+background: linear-gradient(to bottom right,white,white);
+border-radius: 25px;
+justify-content: center;
+align-items: center;
+display: flex;
+
+}
+
+
+@media screen and (max-width: 650px) {
+.column-potensi {
+width: 100%;
+display: block;
+
+}
+}
+
+.card-potensi {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+width:100%;
+}
+.card-potensi button {
+border: none;
+outline: 0;
+padding: 12px;
+color: white;
+background-color: #000;
+text-align: center;
+cursor: pointer;
+width: 100%;
+font-size: 18px;
+}
+
+.card-potensi button:hover {
+opacity: 0.7;
+}
+.container-potensi {
+padding: 0 16px;
+
+}
+
+.container-potensi::after, .row::after {
+content: "";
+clear: both;
+display: table;
+
+}
+
+.title-potensi {
+color: navy;
+}
+
+
+.row-potensi{
+justify-content : center;
+align-items : center;
+display : flex;
+width:100%;
+
+
+}
+
+.card1 {
+box-shadow: 0 10px 18px 0 rgba(0.5, 0.5, 0.5, 0.9);
+float:left;
+border-radius: 15px;
+margin: 6px;
+margin-top:25px; 
+margin-bottom:25px;
+text-align: center;
+font-family: arial;
+width:32%;
+height:auto;
+background: linear-gradient(to bottom right,#68f3f8,white,#68f3f8);
+
+
+}
+
+.price {
+color: red;
+font-size: 20pt;
+}
+
+.card button {
+border: none;
+outline: 0;
+padding: 12px;
+color: white;
+background-color: #000;
+text-align: center;
+cursor: pointer;
+width: 100%;
+font-size: 18px;
+}
+
+.card button:hover {
+opacity: 0.7;
+}
+
+/* Ukuran layar kecil */
+  .baris{
+    box-sizing: border-box;
+  }
+  .kolom{
+    width: 100%;
+    height: auto;
+    margin: 3px;
+    box-sizing: border-box;
+    float: left;
+
+  }
+  h3{font-size: 10pt;}
+  p{font-size: 9pt}
+/* Ukuran layar mobile phone minimal resolusi 375px */
+  @media (min-width: 375px) {
+      .title-team{font-size: 15pt;}
+       h2{font-size: 25pt;}
+      .price{font-size: 20pt;}
+    .kolom{width: calc(100vw / 5);}
+    h3{font-size: 16pt;}
+  p{font-size: 12pt}
+  }
+  /* Ukuran layar mobile phone minimal resolusi 576px */
+  @media (min-width: 576px) {
+    .kolom{width: calc(100vw / 5);}
+    h3{font-size: 16pt;}
+  p{font-size: 12pt}
+  }
+
+    /* Ukuran layar tablet minimal resolusi 768px */
+  @media (min-width: 768px) { 
+    .kolom{width: calc(100vw / 5);}
+     h3{font-size: 16pt;}
+  p{font-size: 12pt}
+  }
+
+    /* Ukuran layar dekstop minimal resolusi 992px */
+  @media (min-width: 992px) { 
+    .kolom{width: calc(100vw / 5);}
+     h3{font-size: 16pt;}
+  p{font-size: 12pt}
+  }
+
+    /* Ukuran layar besar minimal resolusi 1200px */
+  @media (min-width: 1200px) { 
+    .kolom{width: calc(100vw / 5);}
+     h3{font-size: 18pt;}
+  p{font-size: 12pt}
+
+  }
+
+    /* Ukuran layar sangat besar minimal resolusi 1400px */
+  @media (min-width: 1400px) {
+   
+  }
+
